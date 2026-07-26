@@ -56,13 +56,15 @@ export const metadata = {
   description: SITE_DESCRIPTION,
   keywords: [
     'Mohammed Tariq',
-    'Senior Frontend Engineer',
-    'AI-Powered Products',
-    'Agentic AI',
-    'React',
-    'Next.js',
-    'Data Visualization',
-    'Dubai',
+    'frontend developer Dubai',
+    'React developer Dubai',
+    'Next.js developer UAE',
+    'senior frontend engineer Dubai',
+    'hire frontend developer Dubai',
+    'React Native developer UAE',
+    'AI product engineer Dubai',
+    'agentic AI developer',
+    'data visualization engineer',
   ],
   authors: [{ name: 'Mohammed Tariq' }],
   creator: 'Mohammed Tariq',
@@ -94,6 +96,7 @@ export const viewport = {
 const personJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
+  '@id': `${SITE_URL}/#person`,
   name: 'Mohammed Tariq',
   jobTitle: 'Senior Frontend Engineer | AI-Powered Products Specialist',
   description: SITE_DESCRIPTION,
@@ -117,10 +120,34 @@ const personJsonLd = {
     },
   ],
   knowsLanguage: 'en',
+  // Occupation + location are what surface this profile for "frontend
+  // developer Dubai"-style queries and in hiring-intent knowledge panels.
+  hasOccupation: {
+    '@type': 'Occupation',
+    name: 'Senior Frontend Engineer',
+    occupationalCategory: '15-1254.00', // O*NET: Web Developers
+    occupationLocation: {
+      '@type': 'City',
+      name: 'Dubai',
+      address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
+    },
+    skills: 'React.js, Next.js, TypeScript, React Native, Agentic AI, RAG, Data Visualization',
+    experienceRequirements: '6+ years',
+  },
+  workLocation: {
+    '@type': 'Place',
+    address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
+  },
+  homeLocation: {
+    '@type': 'Place',
+    address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
+  },
   knowsAbout: [
+    'Frontend Development',
     'React.js',
     'Next.js',
     'TypeScript',
+    'React Native',
     'Agentic AI',
     'RAG',
     'LLM API Integration',
@@ -132,6 +159,18 @@ const personJsonLd = {
   ],
 };
 
+// Marks the site as a personal profile rather than a generic website, which is
+// how search engines tie the pages to the Person entity above.
+const profileJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  url: SITE_URL,
+  name: SITE_NAME,
+  description: SITE_DESCRIPTION,
+  inLanguage: 'en',
+  mainEntity: { '@id': `${SITE_URL}/#person` },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html className={`dark ${fontVars}`} lang="en">
@@ -139,6 +178,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(profileJsonLd) }}
         />
       </head>
       <body className="font-body-md text-on-background selection:bg-primary-container selection:text-on-primary-container">

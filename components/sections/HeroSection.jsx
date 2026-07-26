@@ -70,7 +70,8 @@ export default function HeroSection({ id }) {
           <h1 className="text-[34px] sm:text-[52px] md:text-[66px] leading-[1.05] tracking-tight opacity-0 animate-fade-up">
             {/* Screen readers and crawlers get the complete, static title. */}
             <span className="sr-only">
-              Mohammed Tariq — Senior Frontend Engineer and AI-Powered Products Specialist
+              Mohammed Tariq — Senior Frontend Engineer in Dubai, UAE, building React, Next.js
+              and AI-powered products
             </span>
             <GlitchName first="MOHAMMED" last="TARIQ" className="whitespace-nowrap" />
           </h1>

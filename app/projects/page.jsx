@@ -3,9 +3,9 @@ import Footer from '../../components/Footer';
 import ProjectsSection from '../../components/sections/ProjectsSection';
 
 export const metadata = {
-  title: 'Projects — Deployed Assets',
+  title: 'Projects — React, Next.js & AI Platforms',
   description:
-    'High-performance platforms and AI products: Mahindra Scorpio launch (300K+ concurrent users, $2.3B bookings), Suadeo AI intelligence, AIRA agentic real estate, marine fleet visualization, ICICI Bank portal, and French Ministry applications.',
+    'Frontend engineering work by Mohammed Tariq (Dubai): the Mahindra Scorpio launch platform (300K+ concurrent users, $2.3B launch-day bookings), Suadeo AI intelligence, AIRA agentic real estate, real-time marine fleet visualization, ICICI Bank portal and French Ministry applications.',
   alternates: { canonical: '/projects' },
 };
 

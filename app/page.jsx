@@ -7,9 +7,12 @@ import AboutSection from '../components/sections/AboutSection';
 import ContactSection from '../components/sections/ContactSection';
 
 export const metadata = {
-  title: 'Mohammed Tariq — Senior Frontend Engineer | AI-Powered Products Specialist',
+  // Full title, so the "| Mohammed Tariq" template is not appended twice.
+  title: {
+    absolute: 'Mohammed Tariq — Senior Frontend Engineer in Dubai | React, Next.js & AI',
+  },
   description:
-    'Dubai-based engineer specializing in agentic AI, high-performance data visualization, and real-time systems. Architecting the next generation of intelligent digital interfaces.',
+    'Senior Frontend Engineer based in Dubai, UAE. 6+ years with React, Next.js and TypeScript, building AI-powered products and high-traffic platforms — 300K+ concurrent users, $2.3B in launch-day bookings. Open to frontend engineering roles.',
   alternates: { canonical: '/' },
 };
 
