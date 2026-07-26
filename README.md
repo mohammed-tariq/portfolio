@@ -86,12 +86,12 @@ what pushed Zustand's violet from `#8B5CF6` to `#A78BFA`.
 
 ## Before deploying
 
-- Canonical domain is `https://mohammedtariq.com` (set in `lib/site.js`, override
+- Canonical domain is `https://findtariq.com` (set in `lib/site.js`, override
   per-environment with `NEXT_PUBLIC_SITE_URL`). If you also own another TLD, 301
   it to this one rather than serving the same content at both.
 - Add `RESEND_API_KEY` in Vercel → Project Settings → Environment Variables.
   `.env.local` is local-only and never deploys.
-- **Once `mohammedtariq.com` is verified in Resend**, change the `from` address
+- **Once `findtariq.com` is verified in Resend**, change the `from` address
   in `app/api/contact/route.js` from `onboarding@resend.dev` to an address on
   your own domain. Do not change it before verifying — sends will fail. The
   shared `resend.dev` sender also only delivers to the Resend account owner's
