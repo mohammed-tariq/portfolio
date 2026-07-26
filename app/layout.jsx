@@ -1,5 +1,5 @@
 import './globals.css';
-import { Inter, JetBrains_Mono, Space_Grotesk } from 'next/font/google';
+import { Inter, JetBrains_Mono, Space_Grotesk, Share_Tech_Mono } from 'next/font/google';
 import CodeRain from '../components/CodeRain';
 import {
   SITE_URL,
@@ -34,9 +34,18 @@ const spaceGrotesk = Space_Grotesk({
   variable: '--font-display',
 });
 
+// Hero name only. Monospaced so the decode animation can swap characters
+// without the name changing width.
+const shareTechMono = Share_Tech_Mono({
+  subsets: ['latin'],
+  weight: ['400'],
+  display: 'swap',
+  variable: '--font-name',
+});
+
 // Material Symbols is not in next/font's catalog; it is self-hosted from
 // /public/fonts via an @font-face rule in globals.css.
-const fontVars = `${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable}`;
+const fontVars = `${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} ${shareTechMono.variable}`;
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

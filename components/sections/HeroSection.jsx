@@ -2,6 +2,7 @@ import Link from 'next/link';
 import ShaderBackground from '../ShaderBackground';
 import TechCore from '../TechCoreLazy';
 import RotatingTitle from '../RotatingTitle';
+import GlitchName from '../GlitchName';
 
 const ROLES = [
   'SENIOR_FRONTEND_ENGINEER',
@@ -61,19 +62,17 @@ export default function HeroSection({ id }) {
           <div className="flex items-center justify-center gap-4 opacity-0 animate-fade-up">
             <span className="w-8 md:w-12 h-[1px] bg-primary-fixed-dim/60" />
             <span className="font-label-caps text-label-caps text-primary-fixed-dim tracking-[0.2em]">
-              OPERATOR_ONLINE
+              BASED_IN_DUBAI
             </span>
             <span className="w-8 md:w-12 h-[1px] bg-primary-fixed-dim/60" />
           </div>
 
-          <h1 className="font-headline-xl text-[44px] sm:text-[64px] md:text-[80px] leading-[0.95] tracking-tight opacity-0 animate-fade-up">
+          <h1 className="text-[34px] sm:text-[52px] md:text-[66px] leading-[1.05] tracking-tight opacity-0 animate-fade-up">
             {/* Screen readers and crawlers get the complete, static title. */}
             <span className="sr-only">
               Mohammed Tariq — Senior Frontend Engineer and AI-Powered Products Specialist
             </span>
-            <span aria-hidden="true" className="text-on-surface">
-              MOHAMMED <span className="text-primary glow-text">TARIQ</span>
-            </span>
+            <GlitchName first="MOHAMMED" last="TARIQ" className="whitespace-nowrap" />
           </h1>
 
           {/* Cycling role line */}
