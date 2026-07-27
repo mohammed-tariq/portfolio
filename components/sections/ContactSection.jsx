@@ -118,8 +118,8 @@ export default function ContactSection({ as: Heading = 'h1', id, className = '' 
                   AVAILABILITY_STATUS
                 </Sub>
                 <p className="font-code-sm text-[12px] text-on-surface-variant leading-relaxed">
-                  Senior Frontend Engineer building AI-powered data products. Currently at Suadeo.
-                  Handshake response time: ~24ms.
+                  Senior Full Stack Engineer in Dubai, UAE, currently at Suadeo. Open to full
+                  stack and frontend roles, AI product work, and consulting.
                 </p>
               </div>
             </div>

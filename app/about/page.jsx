@@ -4,9 +4,9 @@ import RevealOnScroll from '../../components/RevealOnScroll';
 import AboutSection from '../../components/sections/AboutSection';
 
 export const metadata = {
-  title: 'About — Senior Frontend Engineer in Dubai',
+  title: 'About — Senior Full Stack Engineer in Dubai',
   description:
-    'Mohammed Tariq is a Senior Frontend Engineer in Dubai, UAE with 6+ years of experience. Currently at Suadeo; previously Tech Lead at IndiAssetz and Frontend Developer at Niveus and PreseNova. Full stack of skills: React, Next.js, TypeScript, React Native, agentic AI, data visualization, cloud and testing.',
+    'Mohammed Tariq, Senior Full Stack Engineer in Dubai. 6+ years across MERN and Next.js — now at Suadeo, previously Tech Lead at IndiAssetz and dev at Niveus.',
   alternates: { canonical: '/about' },
 };
 

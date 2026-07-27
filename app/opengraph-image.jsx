@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 
-export const alt = 'Mohammed Tariq — Senior Frontend Engineer in Dubai, UAE';
+export const alt = 'Mohammed Tariq — Senior Full Stack Engineer in Dubai, UAE';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -35,7 +35,7 @@ export default function OpengraphImage() {
         </div>
 
         <div style={{ display: 'flex', color: '#b9cacb', fontSize: 38, marginTop: 22, fontWeight: 500 }}>
-          Senior Frontend Engineer · React, Next.js &amp; AI
+          Senior Full Stack Engineer · MERN, Next.js &amp; AI
         </div>
 
         <div style={{ display: 'flex', gap: 14, marginTop: 46, flexWrap: 'wrap' }}>

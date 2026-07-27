@@ -5,10 +5,10 @@ import RotatingTitle from '../RotatingTitle';
 import GlitchName from '../GlitchName';
 
 const ROLES = [
-  'SENIOR_FRONTEND_ENGINEER',
-  'SYSTEM_ARCHITECT',
+  'SENIOR_FULLSTACK_ENGINEER',
+  'MERN_STACK_DEVELOPER',
   'AI_PRODUCT_ENGINEER',
-  'DATA_VIZ_SPECIALIST',
+  'REACT_NEXT.JS_SPECIALIST',
   'AGENTIC_AI_DEVELOPER',
 ];
 
@@ -20,8 +20,8 @@ const CARDS = [
   },
   {
     icon: 'psychology',
-    title: '02. AI_IN_PRODUCTION',
-    body: 'Agentic assistants, voice interfaces, and natural-language dashboards, shipped to real users.',
+    title: '02. END_TO_END',
+    body: 'React and Next.js front ends on Node.js, Express and MongoDB services — owned from API to interface.',
   },
   {
     icon: 'verified_user',
@@ -70,8 +70,8 @@ export default function HeroSection({ id }) {
           <h1 className="text-[34px] sm:text-[52px] md:text-[66px] leading-[1.05] tracking-tight opacity-0 animate-fade-up">
             {/* Screen readers and crawlers get the complete, static title. */}
             <span className="sr-only">
-              Mohammed Tariq — Senior Frontend Engineer in Dubai, UAE, building React, Next.js
-              and AI-powered products
+              Mohammed Tariq — Senior Full Stack Engineer in Dubai, UAE, building AI-powered
+              products with React, Next.js, Node.js and MongoDB
             </span>
             <GlitchName first="MOHAMMED" last="TARIQ" className="whitespace-nowrap" />
           </h1>
@@ -130,11 +130,11 @@ export default function HeroSection({ id }) {
       <div className="hidden lg:block absolute left-margin-desktop bottom-margin-desktop space-y-4 opacity-40">
         <div className="font-code-sm text-code-sm flex items-center gap-2">
           <div className="w-1.5 h-1.5 bg-primary-fixed-dim animate-pulse" />
-          SYSTEM_STATUS: NOMINAL
+          OPEN_TO_WORK
         </div>
         <div className="font-code-sm text-code-sm flex items-center gap-2">
           <div className="w-1.5 h-1.5 bg-primary-fixed-dim" />
-          UPTIME: 99.98%
+          DUBAI_UAE
         </div>
       </div>
 

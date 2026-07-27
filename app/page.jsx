@@ -9,10 +9,10 @@ import ContactSection from '../components/sections/ContactSection';
 export const metadata = {
   // Full title, so the "| Mohammed Tariq" template is not appended twice.
   title: {
-    absolute: 'Mohammed Tariq — Senior Frontend Engineer in Dubai | React, Next.js & AI',
+    absolute: 'Mohammed Tariq — Senior Full Stack Engineer in Dubai | MERN, Next.js & AI',
   },
   description:
-    'Senior Frontend Engineer based in Dubai, UAE. 6+ years with React, Next.js and TypeScript, building AI-powered products and high-traffic platforms — 300K+ concurrent users, $2.3B in launch-day bookings. Open to frontend engineering roles.',
+    'Dubai-based Senior Full Stack Engineer, frontend-focused. 6+ years across MERN and Next.js building AI-powered products and high-traffic platforms.',
   alternates: { canonical: '/' },
 };
 

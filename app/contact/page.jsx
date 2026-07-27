@@ -3,9 +3,9 @@ import Footer from '../../components/Footer';
 import ContactSection from '../../components/sections/ContactSection';
 
 export const metadata = {
-  title: 'Contact — Hire a Frontend Engineer in Dubai',
+  title: 'Contact — Hire a Full Stack Engineer in Dubai',
   description:
-    'Get in touch with Mohammed Tariq, Senior Frontend Engineer based in Dubai, UAE. Open to frontend engineering roles, AI product work, contract and consulting enquiries. Response within 24 hours.',
+    'Get in touch with Mohammed Tariq, Senior Full Stack Engineer in Dubai, UAE. Open to full stack and frontend roles, AI product work and consulting.',
   alternates: { canonical: '/contact' },
 };
 

@@ -7,3 +7,6 @@ npm-debug.log*
 
 # Machine-local Claude Code settings (permissions etc.) — not shared.
 .claude/settings.local.json
+
+# Internal SEO working notes. Candid self-assessment — this repo is public.
+seo/

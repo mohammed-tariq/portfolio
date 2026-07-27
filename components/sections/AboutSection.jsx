@@ -5,8 +5,8 @@ import { SKILL_ICONS } from '../../lib/skill-icons';
 const TIMELINE = [
   {
     period: '11/2025 – PRESENT',
-    title: 'SENIOR_FRONTEND_ENGINEER @ SUADEO',
-    body: 'Focus on French sovereign Data & AI platform, AI-powered visual intelligence, and real-time marine fleet visualization in Dubai, UAE.',
+    title: 'SENIOR_FULLSTACK_ENGINEER @ SUADEO',
+    body: 'French sovereign Data & AI platform in Dubai. AI visual intelligence across React and Node.js services, French Ministry applications, and real-time marine fleet tracking over WebSockets.',
     current: true,
     logTone: 'text-primary-fixed-dim',
     logs: [
@@ -17,8 +17,8 @@ const TIMELINE = [
   },
   {
     period: '08/2024 – 10/2025',
-    title: 'TECH_LEAD_FRONTEND @ INDIASSETZ',
-    body: 'Spearheaded AIRA (AI Real Estate Agent), conversational UI, and broker UX research in India.',
+    title: 'TECH_LEAD_FULLSTACK @ INDIASSETZ',
+    body: 'Built AIRA (AI Real Estate Agent) end to end — React front end, Node.js and Express APIs, MongoDB data models — plus conversational UI and broker UX research.',
     logTone: 'text-secondary',
     logs: [
       ['[AGENT]', 'AIRA_CORE: DEPLOYED'],
@@ -67,9 +67,9 @@ export default function AboutSection({ as: Heading = 'h1', id, className = '', i
               SYSTEM_ARCHITECT
             </Heading>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-              Synthesizing complex digital ecosystems through high-performance engineering and
-              avant-garde interface design. Specializing in low-latency architectures and immersive
-              visual computation.
+              Senior Full Stack Engineer in Dubai, UAE. Six years building products end to end —
+              React and Next.js interfaces on Node.js, Express and MongoDB services — with a
+              frontend focus and a bias toward systems that stay fast under load.
             </p>
           </div>
           <div className="relative w-full md:w-1/2 aspect-video glass-card overflow-hidden group">
